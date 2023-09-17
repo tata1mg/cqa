@@ -1,0 +1,17 @@
+aiofiles~=22.1
+bandit~=1.7
+black~=22.12
+detect-secrets~=1.4
+dparse~=0.6
+gitdb~=4.0; python_version >= '3.7'
+gitpython~=3.1
+importlab~=0.8
+isort~=5.11
+pylama[all]~=8.4
+pylint~=2.15
+pytype==2023.1.17
+rich~=13.2
+safety~=2.3
+scalene<=1.5.20
+typed-ast~=1.5; python_version < '3.8'
+yappi~=1.4

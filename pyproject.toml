@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+    "setuptools >= 60.0.0",
+    "gitpython ~= 3.1",
+]
+
+[tool.cqa.formatter.black]
+line-length = 79
+target-versions = ['py37']
+
+# Example config for pylama
+[tool.cqa.linter.pylama.linter.pycodestyle]
+max_line_length=80
+
+[[tool.cqa.linter.pylama.files]]
+path="cqa/statictools/pylama/temp.py" 
+ignore="C0301,E501"
