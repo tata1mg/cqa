@@ -1,8 +1,11 @@
+import os
+import sys
 import warnings
 
 from setuptools import find_packages, setup
 from setuptools.command.install import install
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 packages = find_packages(exclude=["tests"])
 
 
